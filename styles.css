@@ -17,9 +17,15 @@
 .width_80{ width: 80%; }
 .center { margin: 0 auto; }
 
+/*padding*/
+.pad_right { padding-right: 50px; }
+.pad_top { padding-top: 20px; }
+
 /*display type*/
 .flex { display: flex; }
 .flex_center { align-items: center; }
+.flex_column { flex-direction: column; }
+.flex_justify_center { justify-content: center; }
 
 /*specfici cointainers*/
 .about_me{ background-color: #EBE9E9; padding: 100px 0px; min-height: 200px; }
@@ -27,7 +33,9 @@
 
 .projects { background-color: black; padding: 100px 0px; min-height: 200px; }
 
-.profile { width: 250px; height: 250px; padding-right: 50px;   }
+/*images*/
+.profile { width: 250px; height: 250px;}
+.logos { width: 60px; height: 60px; }
 
 body { margin: 0; height: 100%;}
 html { height: 100%; }
