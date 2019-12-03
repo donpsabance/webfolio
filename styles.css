@@ -23,20 +23,29 @@
 
 /*display type*/
 .flex { display: flex; }
+.flex_wrap { flex-wrap: wrap; }
 .flex_center { align-items: center; }
 .flex_column { flex-direction: column; }
 .flex_justify_center { justify-content: center; }
 
+/*cards*/
+.cards_container{ flex: 1 0 30%; min-height: 300px; box-shadow: 0 5px 10px 0 black; border-radius: 5px; margin: 0% 3% 4% 0%; background-color: white;}
+.cards_img { object-position: center; object-fit: contain; width: 200px; height: 200px; }
+.cards_info { padding: 20px; height: auto;}
+
 /*specfici cointainers*/
-.about_me{ background-color: #EBE9E9; padding: 100px 0px; min-height: 200px; }
+.about_me{ padding: 100px 0px; min-height: 200px; border: solid black; border-width: 1.5px 0px;}
 .inner_about_me { }
 
-.projects { background-color: black; padding: 100px 0px; min-height: 200px; }
+.projects { background-color: #EBE9E9; padding: 100px 0px; min-height: 200px; }
 
 /*images*/
 .profile { width: 250px; height: 250px;}
 .logos { width: 60px; height: 60px; }
+	
+.footer{ height: 100px; width: 100%; background-color: black; overflow: hidden; display: inherit; }
 
-body { margin: 0; height: 100%;}
-html { height: 100%; }
+body { margin: 0; height: 100%; overflow-x: hidden; }
+html { height: 100%;  }
 p{ font-size: 18px; }
+a { color: black; text-decoration: none; font-style: italic;}
