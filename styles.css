@@ -1,0 +1,34 @@
+
+
+
+/*type writer animation*/
+.intro-container div h2 { overflow: hidden; white-space: nowrap; margin: 0 auto; font-size: 90px; animation: animation-typing 2.5s steps(20, end);}
+.intro-container div p { overflow: hidden; white-space: nowrap; margin: 0 auto; font-size: 22px; animation: animation-typing 1.5s steps(20, end);}
+.intro-container{ height: 100%; align-items: center; flex-direction: column; justify-content: center;}
+
+@keyframes animation-typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+/*width*/
+.width_100{ width: 100%; }
+.width_80{ width: 80%; }
+.center { margin: 0 auto; }
+
+/*display type*/
+.flex { display: flex; }
+.flex_center { align-items: center; }
+
+/*specfici cointainers*/
+.about_me{ background-color: #EBE9E9; padding: 100px 0px; min-height: 200px; }
+.inner_about_me { }
+
+.projects { background-color: black; padding: 100px 0px; min-height: 200px; }
+
+.profile { width: 250px; height: 250px; padding-right: 50px;   }
+
+body { margin: 0; height: 100%;}
+html { height: 100%; }
+p{ font-size: 18px; }
