@@ -1,11 +1,12 @@
 
 /*font-family: 'B612', sans-serif;*/
 /*font-family: 'Volkhov', serif;*/
+/*background-color: #e8e8e8; */
 
 /*type writer animation*/
 .intro-container div h2 { overflow: hidden; white-space: nowrap; margin: 0 auto; font-size: 90px; animation: animation-typing 2.5s steps(20, end);}
 .intro-container div p { overflow: hidden; white-space: nowrap; margin: 0 auto; font-size: 22px; animation: animation-typing 1.5s steps(20, end);}
-.intro-container{ height: 100%; align-items: center; flex-direction: column; justify-content: center; font-family: 'Volkhov', serif; font-weight: bold; background-color: #e8e8e8; }
+.intro-container{ height: 100%; align-items: center; flex-direction: column; justify-content: center; font-family: 'Volkhov', serif; font-weight: bold;}
 
 
 /*width*/
@@ -25,26 +26,30 @@
 .flex_justify_center { justify-content: center; }
 
 /*cards*/
-.cards_container{ flex: 1 1 28%; min-height: 300px; box-shadow: 0 5px 10px 0 black; border-radius: 5px; margin: 2%; background-color: #e8e8e8; }
+.cards_container{ flex: 1 1 28%; min-height: 300px; box-shadow: 0 5px 10px 0 black; border-radius: 5px; margin: 2%; background-color: white;}
 .cards_container a { font-size: 20px; font-family: 'Volkhov', serif; font-weight: 700; font-style: normal;}
 .cards_img { object-position: center; object-fit: contain; width: 200px; height: 200px; }
 .cards_info { padding: 20px; height: auto;}
 
 /*specfic cointainers*/
-.about_me{ padding: 100px 0px; min-height: 200px; background-color: #5588a3; }
+.about_me{ padding: 100px 0px; min-height: 200px; background-color: white; }
 
-.projects { background-color: #145374; padding: 100px 0px;}
+.projects { background-color: white; padding: 100px 0px;}
 .projects_cards { display: flex; flex-wrap: wrap; width: 80.1%; margin: 0 auto;}
 
 /*.projects { padding: 150px 0px; background-image: url("https://c.wallhere.com/photos/b0/0a/threadless_humor_simple_minimalism_computer_basketball_coffee_simple_background-255889.jpg!d"); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: 100% 100%; min-height: 600px; }*/
 /*.inner_projects { height: 100%; }*/
+
+.resume_container { padding: 100px 0px; height: 950px; overflow: hidden; }
+.resume {width: 50%; height: 100%; margin: 0 auto; padding: 10px;}
+
 
 
 /*images*/
 .profile { width: 250px; height: 250px;}
 .logos { width: 60px; height: 60px; }
 	
-.footer{ height: 150px; background-color: #00334e; }
+.footer{ height: 150px; background-color: white; }
 .footer_links a { margin-right: 5%; font-size: 16px; font-family: 'Volkhov', serif;}
 
 .test{ background-color: red; }
