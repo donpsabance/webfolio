@@ -40,7 +40,7 @@
 /*.projects { padding: 150px 0px; background-image: url("https://c.wallhere.com/photos/b0/0a/threadless_humor_simple_minimalism_computer_basketball_coffee_simple_background-255889.jpg!d"); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: 100% 100%; min-height: 600px; }*/
 /*.inner_projects { height: 100%; }*/
 
-.resume_container { padding: 100px 0px; height: 950px; overflow: hidden; }
+.resume_container { padding: 100px 0px; height: 100%; overflow: hidden; }
 .resume {width: 50%; height: 100%; margin: 0 auto; padding: 10px;}
 
 
