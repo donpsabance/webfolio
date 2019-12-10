@@ -24,6 +24,7 @@
 .flex_center { align-items: center; }
 .flex_column { flex-direction: column; }
 .flex_justify_center { justify-content: center; }
+.right { right: 50px; position: absolute; }
 
 /*cards*/
 .cards_container{ flex: 1 1 28%; min-height: 300px; /*box-shadow: 0 5px 10px 0 black; border-radius: 5px;*/ margin: 2%; background-color: white;}
@@ -43,14 +44,16 @@
 .resume_container { padding: 100px 0px; overflow: hidden; }
 .resume {width: 50%; height: 100%; margin: 0 auto; padding: 10px;}
 
+.desktop{ display: flex; }
+.mobile { display: none;}
 
 
 /*images*/
 .profile { width: 250px; height: 250px;}
-.logos { width: 60px; height: 60px; }
+.icons { width: 60px; height: 60px; }
 	
-.footer{ height: 150px; background-color: white; }
-.footer_links a { margin-right: 5%; font-size: 16px; font-family: 'Volkhov', serif;}
+.footer{ height: 150px; /*background-color: #e8e8e8;*/}
+.footer_links a { margin-right: 5%; font-size: 16px; font-family: 'Volkhov', serif; line-height: 60px;}
 
 .test{ background-color: red; }
 .border { border: 1px solid red; }
@@ -60,6 +63,14 @@ html { height: 100%;  }
 p{ font-size: 18px; }
 a { color: black; text-decoration: none; font-style: italic;}
 h1{ margin: 0px; padding: 20px 0px; font-size: 40px; font-family: 'Volkhov', serif; font-weight: bold;} 
+
+
+/*profile picture resizing for mobile, or smaller screens*/
+@media (max-width : 900px) {
+    .mobile { display: flex; }
+    .desktop { display: none; }
+}
+
 
 @keyframes animation-typing {
   from { width: 0 }
