@@ -29,7 +29,7 @@
 /*cards*/
 .cards_container{ flex: 1 1 28%; min-height: 300px; /*box-shadow: 0 5px 10px 0 black; border-radius: 5px;*/ margin: 2%; background-color: white;}
 .cards_container a { font-size: 20px; font-family: 'Volkhov', serif; font-weight: 700; font-style: normal;}
-.cards_img { object-position: center; object-fit: contain; width: 200px; height: 200px; }
+.cards_img { object-position: center; object-fit: contain; width: 300px; height: 300px; }
 .cards_info { padding: 20px; height: auto;}
 
 /*specfic cointainers*/
