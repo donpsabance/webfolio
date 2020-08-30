@@ -6,7 +6,7 @@
 /*type writer animation*/
 .intro-container div h2 { color: white; overflow: hidden; white-space: nowrap; margin: 0 auto; font-size: 90px; animation: animation-typing 2.5s steps(20, end);}
 .intro-container div p { color: white; overflow: hidden; white-space: nowrap; margin: 0 auto; font-size: 22px; animation: animation-typing 1.5s steps(20, end);}
-.intro-container{ height: 100%; align-items: center; flex-direction: column; justify-content: center; font-family: 'Volkhov', serif; font-weight: bold; background-image: url("https://d1xfgk3mh635yx.cloudfront.net/sites/default/files/styles/original/public/image/attached/1044941-dearbasketball-023-lr.jpg?itok=Fx20jkY2"); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: 100% 100%; }
+.intro-container{ height: 100%; align-items: center; flex-direction: column; justify-content: center; font-family: 'Volkhov', serif; font-weight: bold; background-image: url("images/plane.jpg"); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: 100% 100%; }
 
 
 /*width*/
