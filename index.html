@@ -4,15 +4,17 @@
 		<title>Don Abance</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link href="https://fonts.googleapis.com/css?family=Volkhov:400,400i,700&display=swap" rel="stylesheet">
-		
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156078064-1"></script>
+	  	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
 
-		  gtag('config', 'UA-156078064-1');
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-156078064-1');
 		</script>		
 	</head>
 	<body>
@@ -22,7 +24,7 @@
 			<div><p>coding enthusiast</p></div>
 		</div>
 
-		<div class="about_me width_100">
+		<div class="about_me width_100" data-aos="fade-up" data-aos-delay="300">
 			<div class="width_80 center">
 				<h1>a little bit about me</h1>
 			</div>
@@ -59,18 +61,18 @@
 			</div>
 
 			<div class="flex width_80 center">
-				<img class="resume" src="images/resumepg1.jpg">
-				<img class="resume" src="images/resumepg2.jpg">
+				<img data-aos="fade-right" data-aos-delay="300" class="resume" src="images/resumepg1.jpg">
+				<img data-aos="fade-left" data-aos-delay="300" class="resume" src="images/resumepg2.jpg">
 			</div>
 
 		</div>
 
-		<div class="projects ">
+		<div class="projects">
 			<div class="width_80 center">
 				<h1>projects</h1>
 			</div>
 			<div class="projects_cards ">
-				<div class="cards_container flex flex_column flex_center">
+				<div class="cards_container flex flex_column flex_center" data-aos="zoom-in-left" data-aos-delay="300">
 					<img class="cards_img" src="images/noPhishing.png">
 					<div class="cards_info"> 
 						<a href="noPhishing.me" target="_blank"><h2>noPhishing</h2></a>
@@ -78,28 +80,28 @@
 						to help them determine if they are possibly being scammed</p>
 					</div>
 				</div>
-				<div class="cards_container flex flex_column flex_center">
+				<div class="cards_container flex flex_column flex_center" data-aos="zoom-in-up" data-aos-delay="300">
 					<img class="cards_img" src="images/aurora.png">
 					<div class="cards_info"> 
 						<a href="https://donpsabance.github.io/Aurora/" target="_blank"><h2>Aurora</h2></a>
 						<p>A simple website using Google's API (Places API, Geocode API, Maps) along with OpenWeather API to determine the day and weekly forecast for a certain location</p>
 					</div>
 				</div>
-				<div class="cards_container flex flex_column flex_center">
+				<div class="cards_container flex flex_column flex_center" data-aos="zoom-in-right" data-aos-delay="300">
 					<img class="cards_img" src="images/passwdgen.png">
 					<div class="cards_info"> 
 						<a href="https://donpsabance.github.io/passwdgen/" target="_blank"><h2>Random Password Generator</h2></a>
 						<p>A website to generate a random password with a desired length along with options such as including numerical, special, and uppercase characters. There is also an option to not include certain characters. Made with HTML, CSS and Javascript</p>
 					</div>
 				</div>
-				<div class="cards_container flex flex_column flex_center">
+				<div class="cards_container flex flex_column flex_center" data-aos="zoom-in-left" data-aos-delay="300">
 					<img class="cards_img" src="images/csv1.jpg">
 					<div class="cards_info"> 
 						<a href="https://github.com/donpsabance/DataOrganizer" target="_blank"><h2>DataOrganizer</h2></a>
 						<p>This simple program is used for organzing existing .csv files and sort them based on certain columns, also supports multiple sorting priority, as well as certain rows either by ascending or descending order.</p>
 					</div>
 				</div>
-				<div class="cards_container flex flex_column flex_center">
+				<div class="cards_container flex flex_column flex_center" data-aos="zoom-in-up" data-aos-delay="300">
 					<img class="cards_img" src="images/rim.png">
 					<div class="cards_info"> 
 						<a href="https://github.com/donpsabance/RestaurantInspectionManager" target="_blank"><h2>Restaurant Inspection Manager</h2></a>
@@ -107,21 +109,21 @@
 
 					</div>
 				</div>
-				<div class="cards_container flex flex_column flex_center">
+				<div class="cards_container flex flex_column flex_center" data-aos="zoom-in-right" data-aos-delay="300">
 					<img class="cards_img" src="images/dof.jpg">
 					<div class="cards_info"> 
 						<a href="https://github.com/donpsabance/DOF_Calculator" target="_blank"><h2>Depth of Field Calculator</h2></a>
 						<p>Android app that included features such as calculating the depth of field of a camera by inputting values, the ability to edit, delete, and add lenses with icons which are saved even through app restarts.</p>
 					</div>
 				</div>
-				<div class="cards_container flex flex_column flex_center">
+				<div class="cards_container flex flex_column flex_center" data-aos="zoom-in-left" data-aos-delay="300">
 					<img class="cards_img" src="images/playing.png">
 					<div class="cards_info"> 
 						<a href="https://github.com/donpsabance/CureTheVirus" target="_blank"><h2>Cure The Virus</h2></a>
 						<p>Android app game similar to minesweeper but simpler. Try to find all viruses with the fewest moves possible. Hints are given on how many viruses are nearby when an area is clicked on.</p>
 					</div>
 				</div>
-				<div class="cards_container flex flex_column flex_center">
+				<div class="cards_container flex flex_column flex_center" data-aos="zoom-in-up" data-aos-delay="300">
 					<img class="cards_img" src="images/reversi.png">
 					<div class="cards_info"> 
 						<a href=""><h2>Reversi</h2></a>
@@ -129,7 +131,7 @@
 
 					</div>
 				</div>
-				<div class="cards_container flex flex_column flex_center">
+				<div class="cards_container flex flex_column flex_center" data-aos="zoom-in-right" data-aos-delay="300">
 					<img class="cards_img" src="images/c4.png">
 					<div class="cards_info"> 
 						<a href="https://github.com/donpsabance/simple-cpp-projects/blob/master/games/connect.cpp" target="_blank"><h2>Connect-4</h2></a>
@@ -139,21 +141,45 @@
 			</div>
 		</div>
 
+		<div class="hobbies ">
+			<div class="width_80 center">
+				<h1>hobbies and interests</h1>
+
+				<div data-aos="fade-up" data-aos-delay="300">
+					<h3>Sports</h3>
+					<p>Throughout highschool, I've been involved in a lot of sports teams and tournaments. I enjoy the physical, strategic, and competitive aspects of it. I've helped coach Flag Football for the past few years. and continue to involved myself in physical activities whenever possible. The thrill and excitement of watching the NFL and NBA is something I look forward to.</p>
+
+				</div>
+
+				<div data-aos="fade-up" data-aos-delay="300">
+					<h3>Hiking</h3>
+					<p>The trip up may never be pleasant, but the view is always rewarding. One of my most favourite places that I've hiked at was Joffre Lake, the view, the lakes, the atmosphere were surreal and was definitely an enjoyful trip.</p>
+
+				</div>
+
+				<div data-aos="fade-up" data-aos-delay="300">
+					<h3>Food</h3>
+					<p>The hunt for food never stops. I try to discover new spots around Vancouver to enjoy food with friends, cafe's to chill at, and places to discover.</p>
+
+				</div>
+
+			</div>
+		</div>
+
+
 		<div class="footer flex width_100">
 			<div class="footer_contents width_80 center">
 				<h1>lets connect!</h1>
-
-				<!-- <p>I'm currently located in the lower mainlanf of Vancouver BC. Feel free to reach out</p> -->
 
 				<div class="footer_links flex flex">
 					<a href="https://www.linkedin.com/in/donpsabance/" target="_blank"><img class="icons" src="https://img.icons8.com/ios/100/000000/linkedin-circled.png"></a>
 					<a href="https://github.com/donpsabance" target="_blank"><img class="icons" src="https://img.icons8.com/wired/128/000000/github.png"></a>
 					<a href="mailto:dabance@sfu.ca"><img class="icons" src="https://img.icons8.com/ios/100/000000/email.png"></a>
 				</div>
-				<!-- <a class="right" target="_blank" href="https://github.com/donpsabance/webfolio">source</a> -->
 				
 		</div>
-
-
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>
